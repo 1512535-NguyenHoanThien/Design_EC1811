@@ -1,0 +1,382 @@
+<!-- Last Updated By : 1512535-NguyenHoanThien -->
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EC1811</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="assets\css\bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/aboutBox.css">
+    <link rel="stylesheet" href="css/slideShow.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <div class="">
+        <!-- Header section -->
+        <header id="header">
+            <!-- Navbar menu -->
+            <div class="main-menu container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav class="navbar navbar-expand-lg navbar-light" style="margin-top: 15px">
+                            <a class="navbar-brand" href="#" style="color: white">Logo-Tên website</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Kiểm tra vé</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Huỷ vé</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Về chúng tôi</a>
+                                    </li>
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <button class="btn btn-outline-warning" id="login"><i class="fa fa-user"
+                                            aria-hidden="true"></i>Đăng nhập</button>
+                                    <button class="btn btn-outline-warning" id="logout"><i class="fa fa-sign-out"
+                                            aria-hidden="true"></i>Đăng xuất</button>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- About website -->
+            <div class="container">
+                <div class="row about-left">
+                    <div class="col-sm-8">
+                        <h6>Website đặt vé hàng đầu Việt Nam</h6>
+                        <h1 style="font-size: 60px">EC1811</h1>
+                        <p>Chúng tôi hỗ trợ quý khách đặt vé tốt nhất và rẻ nhất cho các chuyến đi</p>
+                    </div>
+                    <!-- Search Form -->
+                    <div class="col-sm-4" style="margin-bottom: 100px">
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="" placeholder="&#xf124; Gõ vào nơi đi"
+                                        style="font-family: FontAwesome">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="" placeholder="&#xf041; Gõ vào nơi đến"
+                                        style="font-family: FontAwesome">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="datepicker" placeholder="&#xf073; Chọn ngày đi"
+                                        style="font-family: FontAwesome">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <button class="btn btn-warning" style="color: white">Tìm kiếm</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header section -->
+
+        <!-- Body section -->
+        <!-- Advertiment -->
+        <section class="container" style="margin-top: 30px">
+            <div class="features-boxed">
+                <div class="container">
+                    <div class="intro">
+                        <h2 class="text-center">Mua vé trực tuyến tiện lợi</h2>
+                    </div>
+                    <div class="row justify-content-center features">
+                        <div class="col-sm-6 col-md-5 col-lg-4 item">
+                            <div class="box"><i class="fa fa-clock-o icon"></i>
+                                <h3 class="name">Mua nhanh chóng </h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-5 col-lg-4 item">
+                            <div class="box"><i class="fa fa-plane icon"></i>
+                                <h3 class="name">Mua ở bất cứ đâu</h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-5 col-lg-4 item">
+                            <div class="box"><i class="fa fa-list-alt icon"></i>
+                                <h3 class="name">Đa dạng vé</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduce ticket -->
+        <section class="container" style="margin-top: 100px;">
+            <div class="intro">
+                <h2 class="text-center" style=" margin-bottom: 50px">Đặt vé từ các tuyến đường phổ biến</h2>
+            </div>
+            <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-hcm-tab" data-toggle="pill" href="#pills-hcm" role="tab"
+                        aria-controls="pills-hcm" aria-selected="true">Hồ Chí Minh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-hn-tab" data-toggle="pill" href="#pills-hn" role="tab" aria-controls="pills-hn"
+                        aria-selected="false">Hà Nội</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-ctho-tab" data-toggle="pill" href="#pills-ctho" role="tab"
+                        aria-controls="pills-ctho" aria-selected="false">Cần Thơ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-ntrang-tab" data-toggle="pill" href="#pills-ntrang" role="tab"
+                        aria-controls="pills-ntrang" aria-selected="false">Nha Trang</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-dnang-tab" data-toggle="pill" href="#pills-dnang" role="tab"
+                        aria-controls="pills-dnang" aria-selected="false">Đà Nẵng</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-hcm" role="tabpanel" aria-labelledby="pills-hcm-tab">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Hà Nội <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Cần Thơ <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Bình Thuận <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Hà Nội <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Cần Thơ <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Bình Thuận <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Hà Nội <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Cần Thơ <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                        <div class="col-sm-3">
+                            Hồ Chí Minh - Bình Thuận <br><span class="giaVe badge badge-danger">250.000đ</span>
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-warning btn-sm" style="color: white">Đặt vé</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-hn" role="tabpanel" aria-labelledby="pills-hn-tab">...</div>
+                <div class="tab-pane fade" id="pills-ctho" role="tabpanel" aria-labelledby="pills-ctho-tab">...</div>
+                <div class="tab-pane fade" id="pills-ntrang" role="tabpanel" aria-labelledby="pills-ntrang-tab">...</div>
+                <div class="tab-pane fade" id="pills-dnang" role="tabpanel" aria-labelledby="pills-dnang-tab">...</div>
+
+            </div>
+        </section>
+
+        <!-- Mạng lưới nhà xe -->
+        <section class="container" style="margin-top: 100px">
+            <div class="intro">
+                <h2 class="text-center" style=" margin-bottom: 50px">Các hãng nhà xe</h2>
+            </div>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/img1.jpg" style="width:100%">
+                    <div class="text">Nhà xe Phương Trang</div>
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="img/img2.jpg" style="width:100%">
+                    <div class="text">Nhà xe Thành Bưởi</div>
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="img/img3.jpg" style="width:100%">
+                    <div class="text">Nhà xe Hoàng Long</div>
+                </div>
+            </div>
+            <br>
+        
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </section>
+
+        <!-- Tin tức -->
+        <div class="container" style="margin-top: 100px">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="intro">
+                        <h2 class="text-left" style=" margin-bottom: 50px">Tin tức chung</h2>
+                    </div>
+                    <span class="giaVe badge badge-info">22/10/2018</span>
+                    <a href="#">Đánh giá khách hàng về EC1811 tăng cao</a><br><br>
+                    <span class="giaVe badge badge-info">22/09/2018</span>
+                    <a href="#">Đánh giá khách hàng về EC1811 tăng cao</a><br><br>
+                    <span class="giaVe badge badge-info">01/09/2018</span>
+                    <a href="#">Đánh giá khách hàng về EC1811 tăng cao</a><br><br>
+                    <span class="giaVe badge badge-info">07/08/2018</span>
+                    <a href="#">Đánh giá khách hàng về EC1811 tăng cao</a><br><br>
+                    <span class="giaVe badge badge-info">06/05/2018</span>
+                    <a href="#">Đánh giá khách hàng về EC1811 tăng cao</a><br><br>
+                </div>
+            <!-- Về chúng tôi -->
+                <div class="col-sm-6">
+                    <div class="intro">
+                        <h2 class="text-left" style=" margin-bottom: 50px">Khách hàng đánh giá</h2>
+                    </div>
+                    <div style="font-weight:bold">
+                        <p>1.027 đánh giá / 1.500</p>
+                        4.5 <span><i class="fa fa-star-o" aria-hidden="true"></i></span><br><br>
+                    </div>
+                    <form action="">
+                        <div class="row form-group">
+                            <div class="col-sm-10">
+                                <input type="email" aria-describedby="emailHelp" class="form-control" id="" placeholder="&#xf044; Nhập email" style="font-family: FontAwesome">
+                            </div>
+                        </div>
+                        <textarea name="" id="" cols="60" rows="6" class="form-group">
+
+                        </textarea>
+                        <div class="row form-group">
+                            <div class="col-sm-10">
+                                <button class="btn btn-warning" style="color: white">Gửi feedback</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Body section -->
+
+
+        <!-- Footer section -->
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3 item">
+                            <ul>
+                                <li><h3>Hãng xe khách</h3></li>
+                                <li><a href="#">Hoàng Long</a></li>
+                                <li><a href="#">Thành Bưởi</a></li>
+                                <li><a href="#">Phương Trang</a></li>
+                                <li><a href="#">Limino</a></li>
+                                <li><a href="#">Thuận An</a></li>
+                                <li><a href="#">Hoa Mai</a></li>
+                                <li><a href="#">...Xem thêm</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <ul>
+                                <li><h3>Về chúng tôi</h3></li>
+                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="#">Tin tức</a></li>
+                                <li><a href="#">Giới thiệu trang web</a></li>
+                                <li><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <ul>
+                                <li><h3>Hỗ trợ</h3></li>
+                                <li><a href="#">Hướng dẫn thanh toán</a></li>
+                                <li><a href="#">Câu hỏi thường gặp</a></li>
+                                <li><a href="#">Quy chế</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 item social">
+                            <h3>Kết nối</h3>
+                            <p class="copyright">EC1811 © 2018</p>
+                            <div id="socialicons">
+                                <a href="#" class="icon"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="icon"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="icon"><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Footer section -->
+    </div>
+
+    <!-- jQuery -->
+    <script src="assets\js\jquery-3.3.1.min.js"></script>
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="assets\js\bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/returnToTop.js"></script>
+
+</body>
+
+</html>

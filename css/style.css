@@ -1,0 +1,128 @@
+/* BODY */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+#header{
+    background-image: url("../img/bgbus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Header navbar*/
+/* Main-menu */
+.main-menu .navbar{
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.main-menu .navbar .navbar-nav .nav-item a{
+    font-weight: bold;
+    color: white;
+}
+.main-menu .navbar .navbar-nav .nav-item a:hover{
+    color: yellow;
+}
+
+/* About left */
+.about-left{
+    margin-top: 100px;
+    color: white;
+}
+/* button login/singout */
+.btn#login, .btn#logout {
+    color: white;
+    border: yellow;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 5px 1px;
+    text-decoration: none;
+    padding: 10px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+}
+
+
+/* Thong tin gia ve */
+#pills-tabContent .row {
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+.footer-clean {
+    padding:50px 0;
+    background-color:#F5F5F5;
+    color:#4b4c4d;
+}
+
+.footer-clean ul{
+    list-style-type: none;
+}
+
+#socialicons .icon{
+    color: #999999;
+    border: 1px solid #CFCFCF;
+    display: inline-block;
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 1px 8px;
+    -webkit-border-radius: 17px; 
+    -moz-border-radius: 17px; 
+    border-radius: 17px; 
+}
+#socialicons .icon:hover{
+    color: HOVER_COLOR;
+    border: 1px solid #CFCFCF;
+}
+  
+
+/* Return to top arrow*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
