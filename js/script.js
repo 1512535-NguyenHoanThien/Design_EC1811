@@ -1,3 +1,4 @@
+//SLIDE SHOW hãng xe
 //khai báo biến slideIndex đại diện cho slide hiện tại
 var slideIndex;
 // KHai bào hàm hiển thị slide
@@ -30,3 +31,18 @@ showSlides(slideIndex = 0);
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+
+// return to top 
+$(window).scroll(function() {
+  if ($(this).scrollTop() >= 50) {        // page scroll >50px
+      $('#return-to-top').fadeIn(200);    // fade in
+  } else {
+      $('#return-to-top').fadeOut(200);   // fade out
+  }
+});
+$('#return-to-top').click(function() {      //mũi tên lên dc click
+  $('body,html').animate({
+      scrollTop : 0                       // scroll top
+  }, 500);
+});
