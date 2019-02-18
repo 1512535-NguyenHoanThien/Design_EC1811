@@ -1,5 +1,5 @@
 //SLIDE SHOW hãng xe
-//khai báo biến slideIndex đại diện cho slide hiện tại
+//khai báo biến slideIndex đại diện cho slide hiện tạiasdfasdf
 var slideIndex;
 // KHai bào hàm hiển thị slide
 function showSlides() {
